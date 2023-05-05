@@ -3,14 +3,15 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
+    font-size: 4vw;
 }
 
 h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+    text-shadow: 1px 1px 5px black;
 }
 
 #bff-img {
-    width: 150px;
+    width: 500px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
@@ -54,8 +55,8 @@ h1, h2, h3, h4, p {
 
 .gift-img {
     margin: 20px auto;
-    max-width: 400px;
-    height: 400px;
+    max-width: 800px;
+    height: 600px;
     border: 6px solid white;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
